@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently -k -n api,web -c cyan,magenta \"npm:server\" \"npm:client\"",
     "start": "npm run dev",
-    "server": "node server/server.cjs",
+    "server": "node server.cjs",
     "client": "vite",
     "build": "vite build"
   },
